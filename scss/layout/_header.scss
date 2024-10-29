@@ -1,0 +1,31 @@
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+        a{
+            color: #ffedd7;
+        }
+        nav{
+            background: linear-gradient(to bottom, #4f473e 60%, #ffedd7 92%, transparent );
+            border-image-slice: 1;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            z-index: 2;
+        } 
+        div img{
+            width: 100px;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+        .titulo{
+            color: #ffedd7;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .links{
+            margin-left: 50px;
+        }
+}
